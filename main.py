@@ -129,8 +129,4 @@ def categories():
 
 # ✅ Start the server (FIXED)
 if __name__ == "__main__":
-    mcp.run(
-        transport="http",   # 🔑 THIS IS THE FIX
-        host="0.0.0.0",
-        port=8000
-    )
+    mcp.run()
